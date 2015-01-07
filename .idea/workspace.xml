@@ -24,7 +24,11 @@
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_combinations_of_numbers_should_return_2560_when_MMDLX_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation combinations of numbers should return 2560 when MMDLX is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658625729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_5000_when__M__is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 5000 when (M) is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655223446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_hundreds_should_be_valid_if_CD_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for hundreds should be valid if CD is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657404460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter: RomanNumeralApplication Coverage Results" MODIFIED="1420661995797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+=======
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter: RomanNumeralApplication Coverage Results" MODIFIED="1420661643370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+>>>>>>> e5c4ad4b6a180508176dd2054bc3b7a28039bba3
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_ones_should_be_valid_if_IX_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for ones should be valid if IX is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658985438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_should_be_valid_if_M_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation should be valid if M is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657039126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_tens_should_be_valid_if_XC_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for tens should be valid if XC is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658140502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
@@ -91,11 +95,17 @@
       <file leaf-file-name="roman_numeral_converter_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.6596558" vertical-offset="0" max-vertical-offset="2220">
               <caret line="153" column="25" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="25" />
               <folding>
                 <element signature="e#209#4385#0" expanded="false" />
               </folding>
+=======
+            <state vertical-scroll-proportion="0.79923517" vertical-offset="3647" max-vertical-offset="4170">
+              <caret line="271" column="5" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
+              <folding />
+>>>>>>> e5c4ad4b6a180508176dd2054bc3b7a28039bba3
             </state>
           </provider>
         </entry>
@@ -104,7 +114,11 @@
         <entry file="file://$PROJECT_DIR$/roman_numeral_converter.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+<<<<<<< HEAD
               <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+=======
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+>>>>>>> e5c4ad4b6a180508176dd2054bc3b7a28039bba3
               <folding />
             </state>
           </provider>
@@ -546,7 +560,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16094421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16094421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> e5c4ad4b6a180508176dd2054bc3b7a28039bba3
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28376704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -574,6 +592,26 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+<<<<<<< HEAD
+=======
+      <breakpoints>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/roman_numeral_converter.rb</url>
+          <line>36</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/roman_numeral_converter.rb</url>
+          <line>37</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ruby-line">
+          <url>file://$PROJECT_DIR$/roman_numeral_converter.rb</url>
+          <line>38</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+>>>>>>> e5c4ad4b6a180508176dd2054bc3b7a28039bba3
       <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager>
@@ -667,7 +705,19 @@
     <entry file="file://$PROJECT_DIR$/roman_numeral_converter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+<<<<<<< HEAD
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+=======
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.79923517" vertical-offset="3647" max-vertical-offset="4170">
+          <caret line="271" column="5" selection-start-line="271" selection-start-column="5" selection-end-line="271" selection-end-column="5" />
+>>>>>>> e5c4ad4b6a180508176dd2054bc3b7a28039bba3
           <folding />
         </state>
       </provider>

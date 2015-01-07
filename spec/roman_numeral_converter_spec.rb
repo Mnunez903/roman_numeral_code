@@ -138,7 +138,11 @@ describe RomanNumeralConverter do
     end
   end
 
+<<<<<<< HEAD
   it 'should return a roman numeral converter class' do
+=======
+  it 'should return a roman numberal converter class' do
+>>>>>>> e5c4ad4b6a180508176dd2054bc3b7a28039bba3
     expect(@roman_numeral_converter.class).to eql(RomanNumeralConverter)
   end
 
