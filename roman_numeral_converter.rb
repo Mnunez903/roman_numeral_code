@@ -1,26 +1,12 @@
 class RomanNumeralConverter
-  ROMAN_NUMERAL_REGEXP = /^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/
-  ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP =/\(.*?\)/
-  NUMERALS = {I: 1,
-              IV: 4,
-              IX: 9,
-              V: 5,
-              X: 10,
-              XL: 40,
-              XC: 90,
-              L: 50,
-              C: 100,
-              CD: 400,
-              CM: 900,
-              D: 500,
-              M: 1000}
+  require_relative 'roman_numeral'
 
   def convert(character)
     validate_number(character)
     roman_numerals = character.upcase
 
-    if ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP.match(character)
-      big_roman_numerals = return_characters_in_parenthesis(roman_numerals.slice!(ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP))
+    if RomanNumeral.greater_than_5000_regexp.match(character)
+      big_roman_numerals = remove_parenthesis(roman_numerals.slice!(RomanNumeral.greater_than_5000_regexp))
     end
 
     number = get_roman_numeral(roman_numerals)
@@ -32,12 +18,11 @@ class RomanNumeralConverter
 
   def get_roman_numeral(roman_numerals)
     total = 0
-    keys = NUMERALS.keys.sort_by(&:length).reverse
-    while roman_numerals.length != 0
-      keys.each do |key|
-        if roman_numerals.start_with?(key.to_s)
-          total += NUMERALS[key]
-          roman_numerals.slice!(0, key.length)
+    until roman_numerals.empty?
+      RomanNumeral.list.each do |roman_numeral|
+        if roman_numerals.start_with?(roman_numeral.letter)
+          total += roman_numeral.amount
+          roman_numerals.slice!(0, roman_numeral.length)
           break
         end
       end
@@ -48,14 +33,10 @@ class RomanNumeralConverter
   private
 
   def validate_number(number)
-    raise 'Invalid character. Please try again.' unless ROMAN_NUMERAL_REGEXP.match(number) || ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP.match(number)
+    raise 'Invalid character. Please try again.' unless RomanNumeral.regexp.match(number) || RomanNumeral.greater_than_5000_regexp.match(number)
   end
 
-  def add_value_from_numerals(roman_numeral)
-    NUMERALS[roman_numeral.to_sym]
-  end
-
-  def return_characters_in_parenthesis(characters)
+  def remove_parenthesis(characters)
     characters.gsub(/\(|\)/, '')
   end
 end
