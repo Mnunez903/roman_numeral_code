@@ -111,14 +111,49 @@ describe RomanNumeralConverter do
       expect(@roman_numeral_converter.convert('MMMMCMXCIX')).to eql(4999)
     end
 
-    # IV = 4
-    # XXXIV = 34
-    # CCLXVII = 267
-    # DCCLXIV = 764
-    # CMLXXXVII = 987
-    # MCMLXXXIII = 1983
-    # MMXIV = 2014
-    # MMMM = 4000
-    # MMMMCMXCIX = 4999
+    it 'should return the number 5000 when (V) is inserted' do
+      expect(@roman_numeral_converter.convert('(V)')).to eql(5000)
+    end
+
+    it 'should return the number 6000 when (V)M is inserted' do
+      expect(@roman_numeral_converter.convert('(V)M')).to eql(6000)
+    end
+
+    it 'should return the number 9000 when (IX) is inserted' do
+      expect(@roman_numeral_converter.convert('(IX)')).to eql(9000)
+    end
+
+    it 'should return the number 11000 when (XI) is inserted' do
+      expect(@roman_numeral_converter.convert('(XI)')).to eql(11000)
+    end
+
+    it 'should return the number 12000 when (X)MM is inserted' do
+      expect(@roman_numeral_converter.convert('(X)MM')).to eql(12000)
+    end
+
+    it 'should return the number 12345 when (X)MMCCCXLV is inserted' do
+      expect(@roman_numeral_converter.convert('(X)MMCCCXLV')).to eql(12345)
+    end
+    it 'should return the number 12000 when (X)MM is inserted' do
+      expect(@roman_numeral_converter.convert('(X)MM')).to eql(12000)
+    end
+
+    # (V)CDLXXVIII = 5478
+    # (V)M = 6000
+    # (IX) = 9000
+    # (X)M = 11000
+    # (X)MM = 12000
+    # (X)MMCCCXLV = 12345
+    # (CCCX)MMMMCLIX = 314159
+    # (DLXXV)MMMCCLXVII = 578267
+    # (MMMCCXV)CDLXVIII = 3215468
+    # (MMMMCCX)MMMMCDLXVIII = 4214468
+    # (MMMMCCXV)CDLXVIII = 4215468
+    # (MMMMCCXV)MMMCDLXVIII = 4218468
+    # (MMMMCCXIX)CDLXVIII = 4219468
+    # ((XV)MDCCLXXV)MMCCXVI = 16777216
+    # ((CCCX)MMMMCLIX)CCLXV = 314159265
+    # ((MLXX)MMMDCCXL)MDCCCXXIV = 1073741824
+
   end
 end

@@ -1,5 +1,6 @@
 class RomanNumeralConverter
   ROMAN_NUMERAL_REGEXP = /^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/
+  ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP =/\(.*?\)/
   NUMERALS = {I: 1,
               IV: 4,
               IX: 9,
@@ -15,14 +16,27 @@ class RomanNumeralConverter
               M: 1000}
 
   ONE_CHARACTER = 1
-
   TWO_CHARACTERS = 2
 
   def convert(character)
     validate_number(character)
     roman_numerals = character.upcase
-    number = 0
 
+    if ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP.match(character)
+      big_roman_numerals = return_characters_in_parenthesis(roman_numerals.slice!(ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP))
+    end
+
+    number = get_roman_numeral(roman_numerals)
+
+    if big_roman_numerals
+      number += get_roman_numeral(big_roman_numerals) * 1000
+    end
+    number
+  end
+
+  def get_roman_numeral(roman_numerals)
+    value = 0
+    total = 0
     while roman_numerals.length != 0
       case
         when roman_numerals.start_with?('IV')
@@ -53,19 +67,23 @@ class RomanNumeralConverter
           value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
         else
       end
-      number += value
+      total += value
     end
-    number
+    total
   end
 
   private
 
   def validate_number(number)
-    raise 'Invalid character. Please try again.' unless ROMAN_NUMERAL_REGEXP.match(number)
+    raise 'Invalid character. Please try again.' unless ROMAN_NUMERAL_REGEXP.match(number) || ROMAN_NUMERAL_GREATER_THAN_5000_REGEXP.match(number)
   end
 
   def add_value_from_numerals(roman_numeral)
     NUMERALS[roman_numeral.to_sym]
+  end
+
+  def return_characters_in_parenthesis(characters)
+    characters.gsub(/\(|\)/, '')
   end
 end
 
