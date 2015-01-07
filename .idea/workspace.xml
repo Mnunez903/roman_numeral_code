@@ -14,34 +14,67 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fifties__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fifties: RomanNumeralApplication Coverage Results" MODIFIED="1420657886270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_12345_when__X_MMCCCXLV_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 12345 when (X)MMCCCXLV is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655501641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_hundreds_should_be_valid_if_CM_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for hundreds should be valid if CM is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657429214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation: RomanNumeralApplication Coverage Results" MODIFIED="1420658829144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_hundreds_should_be_valid_if_CCC_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for hundreds should be valid if CCC is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657365783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_hundreds__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for hundreds: RomanNumeralApplication Coverage Results" MODIFIED="1420657881856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_tens__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for tens: RomanNumeralApplication Coverage Results" MODIFIED="1420658060997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_combinations_of_numbers_should_return_2560_when_MMDLX_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation combinations of numbers should return 2560 when MMDLX is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658625729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_5000_when__M__is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 5000 when (M) is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655223446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_hundreds_should_be_valid_if_CD_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for hundreds should be valid if CD is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657404460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter: RomanNumeralApplication Coverage Results" MODIFIED="1420661995797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_ones_should_be_valid_if_IX_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for ones should be valid if IX is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658985438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_should_be_valid_if_M_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation should be valid if M is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657039126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_tens_should_be_valid_if_XC_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for tens should be valid if XC is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658140502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@Run_spec__roman_numeral_converter_spec___RomanNumeralApplication.coverage" NAME="Run spec 'roman_numeral_converter_spec': RomanNumeralApplication Coverage Results" MODIFIED="1420660088302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_hundreds_should_be_valid_if_C_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for hundreds should be valid if C is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657343789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fives_should_not_be_valid_if_VV_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fives should not be valid if VV is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658730007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_9_when_IX_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 9 when IX is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647026409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_6000_when__V_M_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 6000 when (V)M is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655307193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fifties_should_be_valid_if_L_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fifties should be valid if L is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658275125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_return_a_roman_numberal_converter_class__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter return a roman numberal converter class: RomanNumeralApplication Coverage Results" MODIFIED="1420565903842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_ones__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for ones: RomanNumeralApplication Coverage Results" MODIFIED="1420658883747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_11000_when__XI__is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 11000 when (XI) is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655374580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_combinations_of_numbers_should_return_2550_when_MMDL_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation combinations of numbers should return 2550 when MMDL is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658531015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_4_when_IV_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 4 when IV is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647703615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_do_something_if_this__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should do something if this: RomanNumeralApplication Coverage Results" MODIFIED="1420649382724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests: RomanNumeralApplication Coverage Results" MODIFIED="1420655231316" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_a_number_when_given_a_letter__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return a number when given a letter: RomanNumeralApplication Coverage Results" MODIFIED="1420567676529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_12345_when__X_MMCCCXLV_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 12345 when (X)MMCCCXLV is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655501641" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_should_be_valid_if_MMMM_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation should be valid if MMMM is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657147604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fives_should_be_valid_if_V_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fives should be valid if V is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658705001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fifties_should_be_valid_if_DD_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fifties should be valid if DD is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657855871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_40_when_XL_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 40 when XL is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647888410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fifties_should_be_valid_if_D_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fifties should be valid if D is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657825724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_5000_when__V__is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 5000 when (V) is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655227360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_1_when_I_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 1 when I is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647045686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_900_when_CM_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 900 when CM is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420648305008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_tens_should_be_valid_if_M_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for tens should be valid if M is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658022687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_90_when_XC_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 90 when XC is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647972604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_5000_when__M__is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 5000 when (M) is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655223446" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter: RomanNumeralApplication Coverage Results" MODIFIED="1420655732231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_parenthesis_should_be_valid_when__V__is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for parenthesis should be valid when (V) is given: RomanNumeralApplication Coverage Results" MODIFIED="1420659151053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_50_when_L_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 50 when L is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420643750436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_tens_should_be_valid_if_XL_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for tens should be valid if XL is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658153461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_an_error_when_given_an_invalid_character__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return an error when given an invalid character: RomanNumeralApplication Coverage Results" MODIFIED="1420647512668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_9_when_IX_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 9 when IX is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647026409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_should_be_valid_if_MMMMM_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation should be valid if MMMMM is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657142913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fifties_should_be_valid_if_DDD_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fifties should be valid if DDD is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657805937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_34_when_XXXIV_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 34 when XXXIV is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420660893279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_ones_should_be_valid_if_I_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for ones should be valid if I is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658879838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_400_when_CD_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 400 when CD is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420648147285" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_an_error_when_given_a_weird_roman_numeral__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return an error when given a weird roman numeral: RomanNumeralApplication Coverage Results" MODIFIED="1420650499096" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_6000_when__V_M_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 6000 when (V)M is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655307193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_an_error_when_given_a_weird_roman_numeral__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return an error when given a weird roman numeral: RomanNumeralApplication Coverage Results" MODIFIED="1420656395561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_combinations_of_numbers_should_return_7_when_VII_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation combinations of numbers should return 7 when VII is given: RomanNumeralApplication Coverage Results" MODIFIED="1420659115831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_5_when_V_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 5 when V is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420646833308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_return_a_roman_numberal_converter_class__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter return a roman numberal converter class: RomanNumeralApplication Coverage Results" MODIFIED="1420565903842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_267_when_CCLXVII_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 267 when CCLXVII is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420651845277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_12_when_XII_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 12 when XII is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420570446837" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_11000_when__XI__is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 11000 when (XI) is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655374580" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_10_when_X_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 10 when X is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647116745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fifties_should_be_not_be_valid_if_DD_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fifties should be not be valid if DD is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657920968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_a_roman_numberal_converter_class__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return a roman numberal converter class: RomanNumeralApplication Coverage Results" MODIFIED="1420645061572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_10_when_X_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 10 when X is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647116745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_fifties_should_not_be_valid_if_LL_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for fifties should not be valid if LL is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658291404" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_2_when_II_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 2 when II is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420648044303" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_hundreds_should_be_valid_if_CC_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for hundreds should be valid if CC is given: RomanNumeralApplication Coverage Results" MODIFIED="1420657353988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_12000_when__X_MM_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 12000 when (X)MM is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655408661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_return_the_number_4_when_IV_is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should return the number 4 when IV is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420647703615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
-    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_should_do_something_if_this__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter should do something if this: RomanNumeralApplication Coverage Results" MODIFIED="1420649382724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
     <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_Required_tests_should_return_the_number_9000_when__IX__is_inserted__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter Required tests should return the number 9000 when (IX) is inserted: RomanNumeralApplication Coverage Results" MODIFIED="1420655339056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
+    <SUITE FILE_PATH="coverage/RomanNumeralApplication@RomanNumeralConverter_validation_for_ones_should_be_valid_if_IV_is_given__RomanNumeralApplication.coverage" NAME="RomanNumeralConverter validation for ones should be valid if IV is given: RomanNumeralApplication Coverage Results" MODIFIED="1420658922686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RomanNumeralApplication" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -55,21 +88,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="roman_numeral_converter_spec.rb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="roman_numeral_converter_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1947" max-vertical-offset="2460">
-              <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
-              <folding />
+            <state vertical-scroll-proportion="0.6596558" vertical-offset="0" max-vertical-offset="2220">
+              <caret line="153" column="25" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="25" />
+              <folding>
+                <element signature="e#209#4385#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="roman_numeral_converter.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="roman_numeral_converter.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/roman_numeral_converter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.877193" vertical-offset="30" max-vertical-offset="1440">
-              <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -78,7 +113,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="165">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
@@ -95,8 +130,8 @@
         <option value="$PROJECT_DIR$/roman_numeral_converter_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Gemfile.lock" />
-        <option value="$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb" />
         <option value="$PROJECT_DIR$/roman_numeral_converter.rb" />
+        <option value="$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb" />
       </list>
     </option>
   </component>
@@ -184,7 +219,7 @@
     </key>
   </component>
   <component name="RunManager" selected="RSpec.RomanNumeralConverter: RomanNumeralApplication">
-    <configuration default="false" name="RomanNumeralConverter Required tests should return the number 9000 when (IX) is inserted: RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="RomanNumeralConverter validation combinations of numbers should return 7 when VII is given: RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="RomanNumeralApplication" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -207,7 +242,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numeral_converter_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter Required tests should return the number 9000 when (IX) is inserted" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter validation combinations of numbers should return 7 when VII is given" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -220,7 +255,7 @@
       <ConfigurationWrapper RunnerId="RubyRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="RomanNumeralConverter Required tests should return the number 11000 when (XI) is inserted: RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="RomanNumeralConverter validation for parenthesis should be valid when (V) is given: RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="RomanNumeralApplication" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -243,79 +278,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numeral_converter_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter Required tests should return the number 11000 when (XI) is inserted" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RomanNumeralConverter Required tests should return the number 12000 when (X)MM is inserted: RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="RomanNumeralApplication" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numeral_converter_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter Required tests should return the number 12000 when (X)MM is inserted" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="RomanNumeralConverter Required tests should return the number 12345 when (X)MMCCCXLV is inserted: RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="RomanNumeralApplication" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numeral_converter_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter Required tests should return the number 12345 when (X)MMCCCXLV is inserted" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter validation for parenthesis should be valid when (V) is given" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -352,6 +315,82 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RomanNumeralConverter Required tests should return the number 34 when XXXIV is inserted: RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="RomanNumeralApplication" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numeral_converter_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="RomanNumeralConverter Required tests should return the number 34 when XXXIV is inserted" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+      <RunnerSettings RunnerId="RubyDebugRunner" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyDebugRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Run spec 'roman_numeral_converter_spec': RomanNumeralApplication" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="RomanNumeralApplication" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/roman_numeral_converter_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -463,19 +502,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 9000 when (IX) is inserted: RomanNumeralApplication" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 11000 when (XI) is inserted: RomanNumeralApplication" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 12000 when (X)MM is inserted: RomanNumeralApplication" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 12345 when (X)MMCCCXLV is inserted: RomanNumeralApplication" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter: RomanNumeralApplication" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter validation combinations of numbers should return 7 when VII is given: RomanNumeralApplication" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter validation for parenthesis should be valid when (V) is given: RomanNumeralApplication" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter: RomanNumeralApplication" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 34 when XXXIV is inserted: RomanNumeralApplication" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'roman_numeral_converter_spec': RomanNumeralApplication" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter: RomanNumeralApplication" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 12345 when (X)MMCCCXLV is inserted: RomanNumeralApplication" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 12000 when (X)MM is inserted: RomanNumeralApplication" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 11000 when (XI) is inserted: RomanNumeralApplication" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 9000 when (IX) is inserted: RomanNumeralApplication" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter Required tests should return the number 34 when XXXIV is inserted: RomanNumeralApplication" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Run spec 'roman_numeral_converter_spec': RomanNumeralApplication" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter validation for parenthesis should be valid when (V) is given: RomanNumeralApplication" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.RomanNumeralConverter validation combinations of numbers should return 7 when VII is given: RomanNumeralApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -494,23 +533,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36183396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16094421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36183396" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32961586" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16094421" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28376704" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -535,16 +574,23 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="23" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="RSpecRunConfigurationType">
+        <watch expression="keys" language="ruby" />
+        <watch expression="key.length" language="ruby" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1860">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#209#4385#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,6 +621,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22751322" vertical-offset="591" max-vertical-offset="1875">
           <caret line="48" column="87" selection-start-line="48" selection-start-column="87" selection-end-line="48" selection-end-column="87" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -590,13 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="891" max-vertical-offset="2070">
           <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -616,19 +656,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1947" max-vertical-offset="2460">
-          <caret line="158" column="3" selection-start-line="158" selection-start-column="3" selection-end-line="158" selection-end-column="3" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/roman_numeral_converter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.877193" vertical-offset="30" max-vertical-offset="1440">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/roman_numeral_converter_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6596558" vertical-offset="0" max-vertical-offset="2220">
+          <caret line="153" column="25" selection-start-line="153" selection-start-column="18" selection-end-line="153" selection-end-column="25" />
+          <folding>
+            <element signature="e#209#4385#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
