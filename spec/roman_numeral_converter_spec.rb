@@ -73,4 +73,52 @@ describe RomanNumeralConverter do
   it 'should return the number 1000 when M is inserted' do
     expect(@roman_numeral_converter.convert('M')).to eql(1000)
   end
+
+  describe 'Required tests' do
+    it 'should return the number 4 when IV is inserted' do
+      expect(@roman_numeral_converter.convert('IV')).to eql(4)
+    end
+
+    it 'should return the number 34 when XXXIV is inserted' do
+      expect(@roman_numeral_converter.convert('XXXIV')).to eql(34)
+    end
+
+    it 'should return the number 267 when CCLXVII is inserted' do
+      expect(@roman_numeral_converter.convert('CCLXVII')).to eql(267)
+    end
+
+    it 'should return the number 764 when DCCLXIV is inserted' do
+      expect(@roman_numeral_converter.convert('DCCLXIV')).to eql(764)
+    end
+
+    it 'should return the number 987 when CMLXXXVII is inserted' do
+      expect(@roman_numeral_converter.convert('CMLXXXVII')).to eql(987)
+    end
+
+    it 'should return the number 1983 when MCMLXXXIII is inserted' do
+      expect(@roman_numeral_converter.convert('MCMLXXXIII')).to eql(1983)
+    end
+
+    it 'should return the number 2014 when MMXIV is inserted' do
+      expect(@roman_numeral_converter.convert('MMXIV')).to eql(2014)
+    end
+
+    it 'should return the number 4000 when MMMM is inserted' do
+      expect(@roman_numeral_converter.convert('MMMM')).to eql(4000)
+    end
+
+    it 'should return the number 4999 when MMMMCMXCIX is inserted' do
+      expect(@roman_numeral_converter.convert('MMMMCMXCIX')).to eql(4999)
+    end
+
+    # IV = 4
+    # XXXIV = 34
+    # CCLXVII = 267
+    # DCCLXIV = 764
+    # CMLXXXVII = 987
+    # MCMLXXXIII = 1983
+    # MMXIV = 2014
+    # MMMM = 4000
+    # MMMMCMXCIX = 4999
+  end
 end

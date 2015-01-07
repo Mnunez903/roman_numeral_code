@@ -14,41 +14,44 @@ class RomanNumeralConverter
               D: 500,
               M: 1000}
 
+  ONE_CHARACTER = 1
+
+  TWO_CHARACTERS = 2
+
   def convert(character)
     validate_number(character)
-    roman_numeral = character.upcase
+    roman_numerals = character.upcase
     number = 0
 
-    while roman_numeral.length != 0
+    while roman_numerals.length != 0
       case
-        when roman_numeral.start_with?('IV')
-          value = NUMERALS[roman_numeral.slice!(0,2).to_sym]
-        when roman_numeral.start_with?('IX')
-          value = NUMERALS[roman_numeral.slice!(0,2).to_sym]
-        when roman_numeral.start_with?('I')
-          value = NUMERALS[roman_numeral.slice!(0,1).to_sym]
-        when roman_numeral.start_with?('XL')
-          value = NUMERALS[roman_numeral.slice!(0,2).to_sym]
-        when roman_numeral.start_with?('XC')
-          value = NUMERALS[roman_numeral.slice!(0,2).to_sym]
-        when roman_numeral.start_with?('X')
-          value = NUMERALS[roman_numeral.slice!(0,1).to_sym]
-        when roman_numeral.start_with?('V')
-          value = NUMERALS[roman_numeral.slice!(0,1).to_sym]
-        when roman_numeral.start_with?('L')
-          value = NUMERALS[roman_numeral.slice!(0,1).to_sym]
-        when roman_numeral.start_with?('CD')
-          value = NUMERALS[roman_numeral.slice!(0,2).to_sym]
-        when roman_numeral.start_with?('CM')
-          value = NUMERALS[roman_numeral.slice!(0,2).to_sym]
-        when roman_numeral.start_with?('C')
-          value = NUMERALS[roman_numeral.slice!(0,1).to_sym]
-        when roman_numeral.start_with?('D')
-          value = NUMERALS[roman_numeral.slice!(0,1).to_sym]
-        when roman_numeral.start_with?('M')
-          value = NUMERALS[roman_numeral.slice!(0,1).to_sym]
+        when roman_numerals.start_with?('IV')
+          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
+        when roman_numerals.start_with?('IX')
+          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
+        when roman_numerals.start_with?('I')
+          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
+        when roman_numerals.start_with?('XL')
+          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
+        when roman_numerals.start_with?('XC')
+          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
+        when roman_numerals.start_with?('X')
+          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
+        when roman_numerals.start_with?('V')
+          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
+        when roman_numerals.start_with?('L')
+          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
+        when roman_numerals.start_with?('CD')
+          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
+        when roman_numerals.start_with?('CM')
+          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
+        when roman_numerals.start_with?('C')
+          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
+        when roman_numerals.start_with?('D')
+          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
+        when roman_numerals.start_with?('M')
+          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
         else
-          raise 'Invalid character. Please try again.'
       end
       number += value
     end
