@@ -266,8 +266,5 @@ describe RomanNumeralConverter do
     it 'should return the number 12345 when (X)MMCCCXLV is inserted' do
       expect(@roman_numeral_converter.convert('(X)MMCCCXLV')).to eql(12345)
     end
-    it 'should return the number 12000 when (X)MM is inserted' do
-      expect(@roman_numeral_converter.convert('(X)MM')).to eql(12000)
-    end
   end
 end
