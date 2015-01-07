@@ -15,9 +15,6 @@ class RomanNumeralConverter
               D: 500,
               M: 1000}
 
-  ONE_CHARACTER = 1
-  TWO_CHARACTERS = 2
-
   def convert(character)
     validate_number(character)
     roman_numerals = character.upcase
@@ -27,7 +24,6 @@ class RomanNumeralConverter
     end
 
     number = get_roman_numeral(roman_numerals)
-
     if big_roman_numerals
       number += get_roman_numeral(big_roman_numerals) * 1000
     end
@@ -35,39 +31,16 @@ class RomanNumeralConverter
   end
 
   def get_roman_numeral(roman_numerals)
-    value = 0
     total = 0
+    keys = NUMERALS.keys.sort_by(&:length).reverse
     while roman_numerals.length != 0
-      case
-        when roman_numerals.start_with?('IV')
-          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
-        when roman_numerals.start_with?('IX')
-          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
-        when roman_numerals.start_with?('I')
-          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
-        when roman_numerals.start_with?('XL')
-          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
-        when roman_numerals.start_with?('XC')
-          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
-        when roman_numerals.start_with?('X')
-          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
-        when roman_numerals.start_with?('V')
-          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
-        when roman_numerals.start_with?('L')
-          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
-        when roman_numerals.start_with?('CD')
-          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
-        when roman_numerals.start_with?('CM')
-          value = NUMERALS[roman_numerals.slice!(0,TWO_CHARACTERS).to_sym]
-        when roman_numerals.start_with?('C')
-          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
-        when roman_numerals.start_with?('D')
-          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
-        when roman_numerals.start_with?('M')
-          value = NUMERALS[roman_numerals.slice!(0,ONE_CHARACTER).to_sym]
-        else
+      keys.each do |key|
+        if roman_numerals.start_with?(key.to_s)
+          total += NUMERALS[key]
+          roman_numerals.slice!(0, key.length)
+          break
+        end
       end
-      total += value
     end
     total
   end
@@ -86,5 +59,3 @@ class RomanNumeralConverter
     characters.gsub(/\(|\)/, '')
   end
 end
-
-
