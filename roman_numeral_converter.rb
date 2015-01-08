@@ -2,8 +2,8 @@ class RomanNumeralConverter
   require_relative 'roman_numeral'
 
   def convert(character)
-    RomanNumeral.validate_number(character)
     roman_numerals = character.upcase
+    RomanNumeral.validate_number(roman_numerals)
 
     if RomanNumeral.greater_than_5000_regexp.match(roman_numerals)
       big_roman_numerals = RomanNumeral.remove_parenthesis(roman_numerals.slice!(RomanNumeral.greater_than_5000_regexp))

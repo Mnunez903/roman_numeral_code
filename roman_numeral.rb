@@ -18,10 +18,13 @@ class RomanNumeral
     characters.gsub(parenthesis_regexp, '')
   end
 
-  def self.get(character)
-    list.collect do |roman_numeral|
-      character.scan(roman_numeral.letter).collect{|s| character.slice!(s); roman_numeral }
-    end.flatten
+  def self.get(characters)
+    list.flat_map do |roman_numeral|
+      find_roman_numeral(characters, roman_numeral).collect do |roman_numeral_letter|
+        remove_roman_numeral(characters, roman_numeral_letter)
+        roman_numeral
+      end
+    end
   end
 
   def ==(object)
@@ -37,6 +40,14 @@ class RomanNumeral
   end
 
   private
+
+  def self.find_roman_numeral(character, roman_numeral)
+    character.scan(roman_numeral.letter)
+  end
+
+  def self.remove_roman_numeral(character, s)
+    character.slice!(s)
+  end
 
   def self.roman_numeral_regexp
     /^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/

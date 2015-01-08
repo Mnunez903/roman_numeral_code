@@ -22,6 +22,10 @@ describe RomanNumeralConverter do
     expect(@roman_numeral_converter.convert('I')).to eql(1)
   end
 
+  it 'should return the number 1 when i is inserted' do
+    expect(@roman_numeral_converter.convert('i')).to eql(1)
+  end
+
   it 'should return the number 2 when II is inserted' do
     expect(@roman_numeral_converter.convert('II')).to eql(2)
   end
