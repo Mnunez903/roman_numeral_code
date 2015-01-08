@@ -6,24 +6,30 @@ class RomanNumeral
     @amount = amount
   end
 
-  def self.regexp
-    /^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/
-  end
-
-  def self.greater_than_5000_regexp
-    /\(.*?\)/
-  end
-
   def self.list
     @list ||= ROMAN_NUMERAL_HASH.map {|key, value| self.new(key, value)}
   end
 
-  def self.get_value(key)
-    ROMAN_NUMERAL_HASH[key]
+  def self.validate_number(number)
+    raise 'Invalid character. Please try again.' unless roman_numeral_regexp.match(number) || greater_than_5000_regexp.match(number)
   end
 
-  def match(value)
-    @letter.include?(value.slice(0, length))
+  def self.remove_parenthesis(characters)
+    characters.gsub(parenthesis_regexp, '')
+  end
+
+  def self.get(character)
+    list.collect do |roman_numeral|
+      character.scan(roman_numeral.letter).collect{|s| character.slice!(s); roman_numeral }
+    end.flatten
+  end
+
+  def ==(object)
+    self.amount == object.amount && self.letter == object.letter
+  end
+
+  def eql?(object)
+    self == object
   end
 
   def length
@@ -31,6 +37,18 @@ class RomanNumeral
   end
 
   private
+
+  def self.roman_numeral_regexp
+    /^M{0,4}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$/
+  end
+
+  def self.greater_than_5000_regexp
+    /\(.*?\)/
+  end
+
+  def self.parenthesis_regexp
+    /\(|\)/
+  end
 
   ROMAN_NUMERAL_HASH=
       {
