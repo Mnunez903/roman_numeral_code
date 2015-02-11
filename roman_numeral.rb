@@ -18,7 +18,7 @@ class RomanNumeral
     characters.gsub(parenthesis_regexp, '')
   end
 
-  def self.get(characters)
+  def self.from(characters)
     list.flat_map do |roman_numeral|
       find_roman_numeral(characters, roman_numeral).collect do |roman_numeral_letter|
         remove_roman_numeral(characters, roman_numeral_letter)

@@ -192,19 +192,19 @@ describe RomanNumeral do
   describe 'get' do
     it 'should return a I roman numeral' do
       rn = RomanNumeral.new('I', 1)
-      expect(RomanNumeral.get('I')).to match_array([rn])
+      expect(RomanNumeral.from('I')).to match_array([rn])
     end
 
     it 'returns a IX roman numeral' do
       nine = RomanNumeral.new('IX', 9)
-      expect(RomanNumeral.get('IX')).to match_array([nine])
+      expect(RomanNumeral.from('IX')).to match_array([nine])
     end
 
     it 'should return two roman numeral Objects' do
       ten = RomanNumeral.new('X', 10)
       one = RomanNumeral.new('I', 1)
 
-      expect(RomanNumeral.get('XI')).to match_array([one, ten])
+      expect(RomanNumeral.from('XI')).to match_array([one, ten])
     end
 
     it 'returns a combination of roman numeral objects' do
@@ -212,7 +212,7 @@ describe RomanNumeral do
       five = RomanNumeral.new('V', 5)
       one = RomanNumeral.new('I', 1)
 
-      expect(RomanNumeral.get('XLVIII')).to match_array([forty, one, five, one, one,])
+      expect(RomanNumeral.from('XLVIII')).to match_array([forty, one, five, one, one,])
     end
   end
 end
